@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": " ",
+    "slug": "dailyfresh-customer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "dairyfreshcustomer",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "icon": "./assets/vintage_logo_circle.png",
+    "splash": {
+      "image": "./assets/vintage_logo_circle.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.dairyfresh.customer"
+    },
+    "android": {
+      "package": "com.dairyfresh.customer",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/vintage_logo_circle.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "name": "Daily Milk",
+      "shortName": "Daily Milk"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-status-bar",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/vintage_logo_circle.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#FFFFFF"
+        }
+      ]
+    ]
+  }
+}
