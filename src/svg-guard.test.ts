@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { guardSvgDimensions } from '../../shared/src/ui/svg-guard';
+import { guardSvgDimensions } from '../shared/src/ui/svg-guard';
 
 /**
  * Regression tests for the Android Expo Go crash:
